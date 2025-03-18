@@ -28,6 +28,4 @@ import numpy as np
 def find_middle_column(matrix: List[List[int]]) -> List[int]:
     return np.array(matrix)[:, len(matrix) // 2].tolist()
 
-
-
 """
